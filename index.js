@@ -33,7 +33,7 @@ function createCamera() {
   const near = 0.1;
   const far = 1000;
   camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-  camera.position.set(0, 1.5, 10);
+  camera.position.set(-6, 7, -7);
 }
 
 function createLights() {
